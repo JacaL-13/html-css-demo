@@ -1,0 +1,19 @@
+* {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+span {
+    color: red;
+}
+
+div {
+    background-image: url("https://gameranx.com/wp-content/uploads/2022/02/Elden-Ring-2022.02.16-21.00.15.21.mp4_001066166.jpg;");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 25%; /* (img-height / img-width * container-width) */
+    /* (853 / 1280 * 100) */
+}
